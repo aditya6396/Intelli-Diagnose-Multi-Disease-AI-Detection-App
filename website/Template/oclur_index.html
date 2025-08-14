@@ -1,0 +1,99 @@
+{% extends "disease_page.html" %}
+{% block page %}
+<br>
+<br>
+<br>
+<div id="disease_page">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.5s">
+						<h3>Ocluar</h3>
+						<h4>Overview</h4>
+						<p>Ocular diseases encompass a range of conditions affecting the eyes, including cataracts and glaucoma, which can lead to vision impairment and blindness.
+
+						   Cataracts involve the clouding of the eye's lens, causing blurred vision, while glaucoma, characterized by increased intraocular pressure, can lead to optic nerve damage. Age-related macular degeneration affects the central vision, diabetic retinopathy results from diabetes-related vascular damage, and conjunctivitis causes eye inflammation. Early diagnosis and appropriate treatment are vital for maintaining visual function and preventing irreversible complications in ocular diseases. Regular eye check-ups with healthcare professionals contribute to the effective management of these conditions and overall eye wellness..
+						</p>
+
+						
+					</div>
+					
+					<div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.5s">
+						<img class="ill_image" src="./static/images/disease_img/top-tryck.jpg">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.5s">
+						<h4>Symptoms</h4>
+						<p>The signs and symptoms of Oclurvary from mild to severe, depending on factors such as the type of germ causing the infection, and your age and overall health. Mild signs and symptoms often are similar to those of a cold or flu, but they last longer.
+
+						Signs and symptoms of oclur may include:
+						</p>
+					    <ul>
+					      <li>Blurred vision is a common symptom in many ocular conditions, including cataracts, diabetic retinopathy, and refractive errors. It can result in a lack of sharpness or focus in vision</li>
+					      <li>Eye pain or discomfort may be indicative of conditions like glaucoma or conjunctivitis. Pain can range from a mild irritation to severe, sharp discomfort.</li>
+					      <li>Visual distortions, such as straight lines appearing wavy or distorted, are often associated with age-related macular degeneration (AMD), particularly in its advanced stages</li>
+					      <li>Redness and irritation of the eyes are common symptoms of various conditions, including conjunctivitis (pink eye) and allergies. Inflammation of the conjunctiva can lead to a reddish appearance.</li>
+					      <li>Photophobia or sensitivity to light is a symptom that can occur in conditions like cataracts, corneal abrasions, and inflammation of the eye.</li>
+					     
+		   				 </ul>
+					</div>
+				</div>
+				
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 wow fadeInRight" style="display: inline-block;vertical-align: middle;" data-wow-delay="0.5s">
+						<h3>Model</h3>
+						<p>To make the diagnosis you need to upload an fundus image of your eye</p>
+						<p>The model returns NORMAL if there is no sign of Ocluar disease and eye disease if it detects Cataract,Diabetes,Glaucoma,Hypertension,Myopia,Age Issues</p>
+						</ul>
+					</div>
+					<div class="col-md-6 col-sm-6  wow fadeInRight" data-wow-delay="0.5s">
+						<div class="flex-wrapper" style="padding-top: 60px;">
+						  <div class="single-chart">
+						    <svg viewBox="0 0 36 36" class="circular-chart orange">
+						      <path class="circle-bg"
+						        d="M18 2.0845
+						          a 15.9155 15.9155 0 0 1 0 31.831
+						          a 15.9155 15.9155 0 0 1 0 -31.831"
+						      />
+						      <path class="circle"
+						        stroke-dasharray="86, 100"
+						        d="M18 2.0845
+						          a 15.9155 15.9155 0 0 1 0 31.831
+						          a 15.9155 15.9155 0 0 1 0 -31.831"
+						      />
+						      <text x="18" y="20.35" class="percentage">90%</text>
+						    </svg>
+						    <h4 style="text-align: center;">Accuracy</h4>
+						  </div>
+						</div>
+					</div>
+						
+					</div>
+					
+			
+					
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div class="prediction text-center">
+			    <a href="/oclur_form" class="smoothScroll btn btn-success wow fadeInDown" data-wow-delay="2000">Predict</a>
+		  	</div>
+		
+		  	<br>
+			<br>
+			<br>
+			<br>
+		</div>
+		
+
+{% endblock %}
+
+
+
+
+
+

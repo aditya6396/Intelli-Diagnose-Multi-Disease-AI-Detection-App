@@ -1,0 +1,101 @@
+{% extends "disease_page.html" %}
+{% block page %}
+<br>
+<br>
+<br>
+<div id="disease_page">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 wow fadeInLeft" data-wow-delay="0.5s">
+						<h3>OPTICALCOHERRENCETOMOGRAPHY</h3>
+						<h4>Overview</h4>
+						<p>Optical Coherence Tomography (OCT) is a non-invasive imaging technique that plays a crucial role in medical diagnostics, particularly in ophthalmology. This technology utilizes the principles of low-coherence interferometry to generate high-resolution, cross-sectional images of biological tissues.
+
+						   OCT employs the interference of light waves to measure the echo time delay of reflections from different tissue layers. By analyzing these time delays, OCT produces detailed, real-time images of tissue microstructures.
+						</p>
+
+						
+					</div>
+					
+					<div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.5s">
+						<img class="ill_image" src="./static/images/disease_img/oct.jpeg">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-sm-6 wow fadeInRight" data-wow-delay="0.5s">
+						<h4>Symptoms</h4>
+						<p>The signs and symptoms of pneumonia vary from mild to severe, depending on factors such as the type of germ causing the infection, and your age and overall health. Mild signs and symptoms often are similar to those of a cold or flu, but they last longer.
+
+						Signs and symptoms of pneumonia may include:
+						</p>
+					    <ul>
+					      <li>OCT helps visualize the retina and detect abnormalities in eye structures. In cardiology, OCT is employed for intravascular imaging to assess blood vessels and plaque</li>
+					      <li>Dermatologists use OCT to study skin layers and guide procedures, while neurologists utilize it for imaging brain structures. .</li>
+					      <li>Visual distortions, such as straight lines appearing wavy or distorted, are often associated with age-related macular degeneration (AMD), particularly in its advanced stages.</li>
+					      <li>RThe technology is non-invasive and provides valuable insights into tissue microstructures for enhanced clinical decision-making..</li>
+					      <li>Choroidal neovascularization is a pathological condition characterized by the growth of new blood vessels originating from the choroid (a vascular layer beneath the retina) into the retina. This abnormal blood vessel growth can lead to vision impairment or loss due to leakage of fluid, blood, and other substances into the surrounding retinal tissues.</li>
+						  <li>Diabetic macular edema is a complication of diabetes that affects the macula, the central part of the retina responsible for sharp, central vision. This condition occurs when fluid and proteins leak into the macula, causing it to swell and leading to vision impairment.</li>
+						  <li>Drusen are small yellow or white deposits that accumulate under the retina. They are a common feature associated with age-related macular degeneration (AMD), which is a leading cause of vision loss among individuals over the age of 50.</li>
+						  <li>ptical Coherence Tomography (OCT), a "normal" result indicates that there are no signs of diseases, abnormalities, or structural changes in the examined area.</li>
+		   				 </ul>
+					</div>
+				</div>
+				
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 wow fadeInRight" style="display: inline-block;vertical-align: middle;" data-wow-delay="0.5s">
+						<h3>Model</h3>
+						<p>To make the diagnosis you need to upload an high-resolution cross sections image of the vascular networks in the human retina</p>
+						<p>The model returns NORMAL if there is no sign of OCTA disease and OCTA disease if it detects Choroidal neovascularization,Diabetic macular edema,Drusen
+						</ul>
+					</div>
+					<div class="col-md-6 col-sm-6  wow fadeInRight" data-wow-delay="0.5s">
+						<div class="flex-wrapper" style="padding-top: 60px;">
+						  <div class="single-chart">
+						    <svg viewBox="0 0 36 36" class="circular-chart orange">
+						      <path class="circle-bg"
+						        d="M18 2.0845
+						          a 15.9155 15.9155 0 0 1 0 31.831
+						          a 15.9155 15.9155 0 0 1 0 -31.831"
+						      />
+						      <path class="circle"
+						        stroke-dasharray="86, 100"
+						        d="M18 2.0845
+						          a 15.9155 15.9155 0 0 1 0 31.831
+						          a 15.9155 15.9155 0 0 1 0 -31.831"
+						      />
+						      <text x="18" y="20.35" class="percentage">90%</text>
+						    </svg>
+						    <h4 style="text-align: center;">Accuracy</h4>
+						  </div>
+						</div>
+					</div>
+						
+					</div>
+					
+			
+					
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div class="prediction text-center">
+			    <a href="/octa_form" class="smoothScroll btn btn-success wow fadeInDown" data-wow-delay="2000">Predict</a>
+		  	</div>
+		
+		  	<br>
+			<br>
+			<br>
+			<br>
+		</div>
+		
+
+{% endblock %}
+
+
+
+
+
+
