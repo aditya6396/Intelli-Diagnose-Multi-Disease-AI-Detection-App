@@ -1,0 +1,11 @@
+flask 
+flask_sqlalchemy
+tensorflow
+scikit-learn 
+scipy 
+matplotlib
+keras 
+xgboost 
+opencv-python
+numpy 
+
